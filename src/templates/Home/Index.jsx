@@ -64,7 +64,7 @@ export const Home = () => {
         {!searchValue && (
           <>
             <Button text="Load more posts"
-              clicado={loadMorePosts}
+              click={loadMorePosts}
               disabled={noMorePosts}
             />
           </>
