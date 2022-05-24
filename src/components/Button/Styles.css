@@ -1,14 +1,15 @@
-.button{
-    width: 100%;
-    background: white;
-    color: black;
-    border: none;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-size: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.button {
+  width: 100%;
+  background: white;
+  color: black;
+  border: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.button:disabled{
-    background: #888;
-    cursor: not-allowed;
+
+.button:disabled {
+  background: #888;
+  cursor: not-allowed;
 }
